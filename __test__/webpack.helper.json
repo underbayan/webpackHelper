@@ -1,0 +1,12 @@
+{
+    "mergeStrategy": {
+        "entry": "replace",
+        "plugins": "append",
+        "externals": "prepend"
+    },
+    "WEBPACK_HELPER_CONFIG_NAME": "webpack.helper.json",
+    "WEBPACK_CONFIG_PATTERN": ["*webpack*.js"],
+    "DEV_CONFIG_PATTERN": ["*dev*.js"],
+    "PRO_CONFIG_PATTERN": ["*pro*.js"],
+    "ENTRY_PATTERN": ["./index.js"]
+}

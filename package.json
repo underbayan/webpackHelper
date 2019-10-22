@@ -1,0 +1,20 @@
+{
+    "name": "webpackHelper",
+    "version": "0.0.1",
+    "description": "A tool for run webpack everyWhere.",
+    "main": "src/index.js",
+    "scripts": {
+        "p": "tnpm publish "
+    },
+    "bin": {
+        "wpe": "src/index.js"
+    },
+    "author": "underbayan",
+    "license": "MIT",
+    "dependencies": {
+        "commander": "^2.19.0",
+        "fast-glob": "^2.2.6",
+        "micromatch": "^3.1.10",
+        "webpack-merge": "^4.1.4"
+    }
+}
